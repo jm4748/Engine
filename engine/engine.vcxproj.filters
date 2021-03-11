@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="shader files">
+      <UniqueIdentifier>{aa7b1e51-e375-43a8-b54a-26c2594e3384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\secondary">
+      <UniqueIdentifier>{314eda2d-ee66-4e5a-b65f-097c553ec2ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\primary">
+      <UniqueIdentifier>{89120551-4427-48ff-8f58-0b33cf2ea66e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\game">
+      <UniqueIdentifier>{f4bdb816-c341-41b7-8b37-bd20e7d13bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader files\secondary">
+      <UniqueIdentifier>{93c25b14-bd37-42b6-a303-1fed45c0eee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader files\primary">
+      <UniqueIdentifier>{f2447958-ecf7-489e-8ef6-117fa5a9c6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader files\game">
+      <UniqueIdentifier>{ca0068fd-35bf-4335-9529-34c9aa98ce1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\secondary">
+      <UniqueIdentifier>{c96cf5c0-c727-4a03-8804-48ad4c478df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\primary">
+      <UniqueIdentifier>{ff73a2e4-b19a-44ef-94d3-8dfff9e22b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\game">
+      <UniqueIdentifier>{012f818f-ec2d-4173-8364-54270a98b0ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\game\states.h">
+      <Filter>header files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="code\primary\buffer.h">
+      <Filter>header files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\primary\core.h">
+      <Filter>header files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\primary\dds.h">
+      <Filter>header files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\primary\effect.h">
+      <Filter>header files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\primary\graphics.h">
+      <Filter>header files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\primary\input.h">
+      <Filter>header files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\primary\keys.h">
+      <Filter>header files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\primary\system.h">
+      <Filter>header files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\primary\texture.h">
+      <Filter>header files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\primary\utilities.h">
+      <Filter>header files\primary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\secondary\camera.h">
+      <Filter>header files\secondary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\secondary\model.h">
+      <Filter>header files\secondary</Filter>
+    </ClInclude>
+    <ClInclude Include="code\secondary\texture_manager.h">
+      <Filter>header files\secondary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="code\primary\simple_ps.hlsl">
+      <Filter>shader files\primary</Filter>
+    </FxCompile>
+    <FxCompile Include="code\primary\simple_vs.hlsl">
+      <Filter>shader files\primary</Filter>
+    </FxCompile>
+    <FxCompile Include="code\secondary\model_ps.hlsl">
+      <Filter>shader files\secondary</Filter>
+    </FxCompile>
+    <FxCompile Include="code\secondary\model_vs.hlsl">
+      <Filter>shader files\secondary</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\game\main.cpp">
+      <Filter>source files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="code\game\main_state.cpp">
+      <Filter>source files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="code\primary\buffer.cpp">
+      <Filter>source files\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\primary\core.cpp">
+      <Filter>source files\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\primary\dds.cpp">
+      <Filter>source files\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\primary\effect.cpp">
+      <Filter>source files\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\primary\graphics.cpp">
+      <Filter>source files\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\primary\input.cpp">
+      <Filter>source files\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\primary\keys.cpp">
+      <Filter>source files\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\primary\system.cpp">
+      <Filter>source files\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\primary\texture.cpp">
+      <Filter>source files\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\primary\utilities.cpp">
+      <Filter>source files\primary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\secondary\camera.cpp">
+      <Filter>source files\secondary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\secondary\model.cpp">
+      <Filter>source files\secondary</Filter>
+    </ClCompile>
+    <ClCompile Include="code\secondary\texture_manager.cpp">
+      <Filter>source files\secondary</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
